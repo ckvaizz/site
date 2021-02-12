@@ -102,7 +102,8 @@ header {
 
 .agile_banner.bg1 {
     background: url(../images/banner1.jpg) center no-repeat;
-    background-size: cover;
+    background-position:  right;
+    background-size:cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -989,7 +990,10 @@ input[type=range]::-ms-track {
         padding: 26vw 0 0;
     }
     .agile_banner.bg1 {
-        background-position: right;
+        background: url('../images/ck.jpeg');
+        
+        background-size:cover;
+
     }
 }
 
@@ -1002,6 +1006,7 @@ input[type=range]::-ms-track {
     .banner_text_wthree h2 {
         letter-spacing: 1px;
         font-size: 2.2em;
+        margin-top: 180px;
     }
 }
 
